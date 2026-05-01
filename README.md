@@ -36,19 +36,6 @@ This repository contains Football GM league data and two summary reports:
    - `draftclasses/` contains draft JSON files used to generate rookie and draft-class summaries.
    - These JSON files are the underlying data sources for the reports.
 
-================================================================================
-
-## How the Report Sections Work
-
-Each report uses long header blocks made of `=` characters to define the start and end of every major category.
-
-- A category header is surrounded by repeated `=` lines and includes a label like `Y1.`, `Y2.`, ..., or `C1.`, `C2.`, ...
-- These header blocks mark every statized report section, making it easy to locate, parse, or programmatically extract each category.
-
-> Example: `C1. TOP 200 SINGLE-SEASON OVERALLS` is wrapped by long `=` lines at the top and bottom.
-
-================================================================================
-
 ## What `yearly_report.txt` Offers
 
 `yearly_report.txt` covers season-level rankings and team performance across the covered years.
